@@ -11,7 +11,6 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -20,9 +19,20 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
+
+# Visual Studio
+*.opensdf
+*.sdf
+
+# Specific Folders
+Debug/*
+Release/*
+x64/*
+/UnwantedDoubleClickBlocker/Debug/*
+/UnwantedDoubleClickBlocker/Release/*
+/UnwantedDoubleClickBlocker/x64/*
